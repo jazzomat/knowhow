@@ -1,20 +1,31 @@
-# Jazz Research Knowhow Collection #
+# Jazz Research Resources
 
-## Welcome ## 
+## Welcome 
 
 This page is intended to be a general collection of useful references, links, and other material towards Jazz Research and Jazz Information Retrieval.
 
-## Research Projects ##
+## Research Projects
 
 * [j-i-r (Jazz Information Retrieval) project](http://music.columbia.edu/cmc/j-i-r/)
+* [j-DISC](http://jdisc.columbia.edu/)
+* [Jazzomat Research Project](http://jazzomat.hfm-weimar.de/)
+* [Flow Machines](http://www.flow-machines.com/)
+* [Continuator](http://francoispachet.fr/continuator/continuator.html)
+* [rhythm changes](http://www.rhythmchanges.net/)
 
-## Software Tools ##
+## References
 
-### Symbolic Music Analysis ###
+* See **/tex/references.bib** in this github project for an extensive BibTeX-file with additional rerferences (articles, papers, books, etc.)
+* [Zotero - jazz research group](https://www.zotero.org/groups/jazz-research)
+* [Bob Keller's Jazz Page](https://www.cs.hmc.edu/~keller/jazz/)
 
-* [​Music21](http://web.mit.edu/music21/)
-* [​jMIR](http://jmir.sourceforge.net/)
-​* [MIDI Toolbox](https://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox)
+## Software / Tools
+
+### Symbolic Music Analysis
+
+* [Music21](http://web.mit.edu/music21/)
+* [jMIR](http://jmir.sourceforge.net/)
+* [MIDI Toolbox](https://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox)
 * [The Humdrum Toolkit](http://www.musiccog.ohio-state.edu/Humdrum/)
 * [Themefinder](http://www.themefinder.org/)
 * [musipedia](http://www.musipedia.org/js_piano.html)
@@ -22,6 +33,13 @@ This page is intended to be a general collection of useful references, links, an
 * [Kooplet](http://www.kooplet.com/cgi-bin/kooplet/search.pl)
 
 ## Transcriptions ##
+
+* [Saxopedia](http://www.saxopedia.com/)
+* [Jazz Trumpet Transcriptions](http://pubcs.free.fr/jg/jazz_trumpet_transcriptions_jacques_gilbert_english.html)
+* [Scooby-Sax](http://www.scooby-sax.com/Transcriptions.html)
+* [Michael Brecker Live Recordings](http://www.michaelbreckerliverecordings.com/)
+* [Jazz Trumpet Solos](http://www.jazztrumpetsolos.com/)
+* [Free Jazz Institute (Themes)](http://freejazzinstitute.com/showposts.php?dept=transcriptions)
 
 ## Conferences & Workshops & Summerschools ##
 
@@ -32,31 +50,8 @@ This page is intended to be a general collection of useful references, links, an
 
 ## Misc ##
 
-[Jazzadvice](http://www.jazzadvice.com/)
-[Interview with Lee Konitz](https://ethaniverson.com/rhythm-and-blues/18-with-lee-k/)
-​
-
-[comment]: # (These links need to be fixed)
-[comment]: # (Formulaic Improvisation and Charlie Parkers Ornithology Motives)
-[comment]: # (Bebop Cookbook)
-
-[comment]: # (These references need to be included)
-[comment]: # (https://repositories.lib.utexas.edu/bitstream/handle/2152/ETD-UT-2011-05-3446/FIDLON-DISSERTATION.pdf?sequence=1)
-[comment]: # (Järvinen, T. (1995). Tonal hierarchies in jazz improvisation. Music Perception, 12, 415-437.)
-[comment]: # (Järvinen, T., & Toiviainen, P. (2000). The eﬀect of metre on the use of tones in jazz improvisation. Musicae Scientiae, 4, 55-74)
-[comment]: # (William, J.K. (1985!): A Method for the Computer-Aided Analysis of Jazz Melody in the Small Dimensions)
-[comment]: # (Kjell Bäckman: Evolutionary Jazz Improvisations)
-[comment]: # (Jeff Bair: CYCLIC PATTERNS IN JOHN COLTRANE’S MELODIC VOCABULARY AS INFLUENCED BY NICOLAS SLONIMSKY’S THESAURUS OF SCALES AND MELODIC PATTERNS: AN ANALYSIS OF SELECTED IMPROVISATIONS)
-[comment]: # ()
-[comment]: # ()
-[comment]: # ()
-[comment]: # ()
-[comment]: # ()
-[comment]: # ()
-[comment]: # ()
-[comment]: # ()
-[comment]: # ()
-[comment]: # ()
+* [Jazzadvice](http://www.jazzadvice.com/)
+* [Interview with Lee Konitz](https://ethaniverson.com/rhythm-and-blues/18-with-lee-k/)
 
 
 
