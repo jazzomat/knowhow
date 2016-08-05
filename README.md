@@ -4,6 +4,13 @@
 
 This page is intended to be a general collection of useful references, links, and other material towards Jazz Research and Jazz Information Retrieval.
 
+## Tutorials
+
+* "Jazz solo analysis between music information retrieval, music psychology, and jazz research." - ISMIR Conference, August, 7, 2016
+ * Part 1
+ * Part 2
+ * [Part 3 - Score-informed Solo Analysis (slides)](ISMIR_2016_Tutorial/ISMIR_2016_Jazzomat_Tutorial_Part_3.pdf)
+
 ## Research Projects
 
 * [j-i-r (Jazz Information Retrieval) project](http://music.columbia.edu/cmc/j-i-r/)
