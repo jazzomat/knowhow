@@ -1,6 +1,6 @@
 # Jazz Research Resources
 
-## Welcome 
+## Welcome
 
 This page is intended to be a general collection of useful references, links, and other material towards Jazz Research and Jazz Information Retrieval.
 
@@ -8,7 +8,7 @@ This page is intended to be a general collection of useful references, links, an
 
 * "Jazz solo analysis between music information retrieval, music psychology, and jazz research." - ISMIR Conference, August, 7, 2016
  * Part 1
- * Part 2
+ * [Part 2 - Dataset & Symbolic Music Analysis (slides)](ISMIR_2016_Tutorial/ISMIR_2016_Jazzomat_Tutorial_Part_2.pdf)
  * [Part 3 - Score-informed Solo Analysis (slides)](ISMIR_2016_Tutorial/ISMIR_2016_Jazzomat_Tutorial_Part_3.pdf)
 
 ## Research Projects
@@ -59,7 +59,3 @@ This page is intended to be a general collection of useful references, links, an
 
 * [Jazzadvice](http://www.jazzadvice.com/)
 * [Interview with Lee Konitz](https://ethaniverson.com/rhythm-and-blues/18-with-lee-k/)
-
-
-
-
