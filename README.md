@@ -7,7 +7,7 @@ This page is intended to be a general collection of useful references, links, an
 ## Tutorials
 
 * "Jazz solo analysis between music information retrieval, music psychology, and jazz research." - ISMIR Conference, August, 7, 2016
- * Part 1
+ * [Part 1 - Jazz History & Practice (slides)](ISMIR_2016_Tutorial/ISMIR_2016_Jazzomat_Tutorial_Part_1.pdf)
  * [Part 2 - Dataset & Symbolic Music Analysis (slides)](ISMIR_2016_Tutorial/ISMIR_2016_Jazzomat_Tutorial_Part_2.pdf)
  * [Part 3 - Score-informed Solo Analysis (slides)](ISMIR_2016_Tutorial/ISMIR_2016_Jazzomat_Tutorial_Part_3.pdf)
 
