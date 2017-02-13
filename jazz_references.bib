@@ -1,4 +1,10 @@
 % Encoding: ISO-8859-1
+@misc{BalkeSDEM_WalkingBassTranscription_Website,
+  author       = {Jakob Abe{\ss}er and Stefan Balke and Klaus Frieler and Martin Pfleiderer and  Meinard M{\"u}ller},
+  title        = {Accompanying Website: Deep Learning for Jazz Walking Bass Transcription},
+  howpublished = {\url{http://www.audiolabs-erlangen.de/resources/MIR/2017-AES-WalkingBassTranscription/}},
+  year         = {2017}
+}
 
 @InCollection{Mullensiefen:2011:BOOK,
   author =    {M\"{u}llensiefen, Daniel and Wiggins, Geraint},
@@ -113,7 +119,7 @@
   timestamp = {2016.10.08}
 }
 
-@Article{Abesser:2016:IEEE_TASLP,
+@Article{Abeser2016,
   author =   {J. Abe{\ss}er and K. Frieler and E. Cano and M. Pfleiderer and W. G. Zaddach},
   title =    {Score-Informed Analysis of Tuning, Intonation, Pitch Modulation, and Dynamics in Jazz Solos},
   journal =  {IEEE/ACM Transactions on Audio, Speech, and Language Processing},
@@ -129,7 +135,7 @@
 @Article{Abesser:2016:IEEE_TASLP,
   author =    {Abe{\ss}er, Jakob and Frieler, Klaus and Cano, Estefa{\'i}a and Pfleiderer, Martin and Zaddach, Wolf-Georg},
   title =     {Score-Informed Analysis of Tuning, Intonation, Pitch Modulation, and Dynamics in Jazz Solos},
-  journal =   {IEEE Transactions on Audio, Speech and Language Processing},
+  journal =   {IEEE/ACM Transactions on Audio, Speech, and Language Processing},
   year =      {2016},
   owner =     {jakobabeer},
   timestamp = {2016.11.11}
@@ -186,6 +192,15 @@
   timestamp = {2016.11.10}
 }
 
+@InProceedings{Boeck:2012:ICASSP,
+  author =    {Sebastian B{\"o}ck and Markus Schedl},
+  title =     {Polyphonic piano note transcription with recurrent neural networks},
+  booktitle = {Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  year =      {2012},
+  pages =     {121-124},
+  address =   {Kyoto, Japan}
+}
+
 @Book{Baker:1969:BOOK,
   title =     {Jazz {Improvisation}},
   publisher = {Alfred Publishing Company},
@@ -194,6 +209,16 @@
   address =   {Chicago},
   owner =     {jakobabeer},
   timestamp = {2016.06.16}
+}
+
+@InProceedings{Balke:2017:ICASSP,
+  author =    {Stefan Balke and Christian Dittmar and Jakob Abe{\ss}er and Meinard M{\"u}ller},
+  title =     {Data-Driven Solo Voice Enhancement for Jazz Music Retrieval},
+  booktitle = {Proceedings of the 42nd IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  year =      {2017},
+  address =   {New Orleans, USA},
+  owner =     {jakobabeer},
+  timestamp = {2016.12.11}
 }
 
 @InProceedings{Balke:ISMIR:2016,
@@ -452,6 +477,14 @@
   timestamp = {2016.11.17}
 }
 
+@misc{Chollet15_keras,
+  title={Keras},
+  author={Chollet, Fran\c{c}ois},
+  year={2015},
+  publisher={GitHub},
+  howpublished={\url{https://github.com/fchollet/keras}},
+}
+
 @Article{Chudy:2008:AA,
   author =  {Magdalena Chudy},
   title =   {Automatic identification of music performer using the linear prediction cepstral coefficients method},
@@ -578,6 +611,30 @@
   address =   {Sydney, Australia},
   owner =     {jakobabeer},
   timestamp = {2016.07.25}
+}
+
+@Article{Dittmar:2007:AM,
+  author =        {Dittmar, Christian and Dressler, Karin and Rosenbauer, Katja},
+  title =         {{A Toolbox for Automatic Transcription of Polyphonic Music}},
+  journal =       {Proceeding of the Audio Mostly Conference},
+  year =          {2007},
+  pages =         {58--65},
+  address =       {Ilmenau, Germany},
+  keywords =      {bass transcription,music transcription},
+  mendeley-tags = {bass transcription,music transcription},
+  owner =         {jakobabeer},
+  timestamp =     {2017.01.04}
+}
+
+@InProceedings{Dittmar:2015:ISMIR,
+  author =    {Christian Dittmar and Bernhard Lehner and Thomas Pr{\"{a}}tzlich and Meinard M{\"{u}}ller and Gerhard Widmer},
+  title =     {Cross-Version Singing Voice Detection in Classical Opera Recordings},
+  booktitle = {Proceedings of the 16th International Society for Music Information Retrieval Conference (ISMIR)},
+  year =      {2015},
+  pages =     {618--624},
+  address =   {M{\'{a}}laga, Spain},
+  bibsource = {dblp computer science bibliography, http://dblp.org},
+  biburl =    {http://dblp.uni-trier.de/rec/bib/conf/ismir/DittmarLPMW15}
 }
 
 @InProceedings{Dixon:2004:ISMIR,
@@ -773,7 +830,7 @@
   year =          {2011},
   pages =         {373--376},
   address =       {Praha, Czech Republic},
-  annote =        { From Duplicate 1 ( Automatic Real-Time Electric Guitar Audio Transcription - Fiss, Xander; Kwasinski, Andres ) GENERAL - instrument construction and knowledge about tuning and pitch ranges can be used to constrain the transcription process - "The development of a musicianâ??s intuition for the cause-effect relationship inherent in producing sound is essential to mastering the instrument." APPROACH - real-time guitar transcription - fs = 8000Hz (highest guitar f0: 1174Hz, D6 at fret 22) - compromise between demands to performance and to resolving the first harmonics of the highest notes without any alias - authors apply a polyphonic pitch detection algorithm, results are scored based on knowledge about the guitar - maximum polyphony = 6 - maximum stretch span of gripping hand (maximum number of unique frets in a chord = 4) - STFT, partially overlapping Hann window, - fs = 8000, N = 2048, DeltaF = 3.91 Hz, t_window = .256 Hz ( for real time applications: maximum allowed latency needs to be considered) - quadratic curve fitting is applied to extrapolate values between frequency bin positions - use "PeakDet" peak detection algorithm - criteria to evaluate peaks as definite fundamentals: - must be a power-of-two multiple of a possible f_0, - must have supporting harmonics - can note be explained as a harmonic of a previously established definite fundamental - different combinations of f_0 candidates and assigned string numbers -> "guitar states" - guitar states are evaluated based on three metrics - "Support" -> number of supporting harmonics - "Power" -> amplitude sum of harmonic 0 \& 1 - is set into relationship with mean power of all definitive fundamentals - "Spread" -> fingering confidence, "biomechnic feasibility" RESULTS: - tested with different common chord shapes - results not well documented (average correct result score: ,873) From Duplicate 2 ( Automatic Real-Time Electric Guitar Audio Transcription - Fiss, Xander; Kwasinski, Andres ) From Duplicate 2 ( Automatic Real-Time Electric Guitar Audio Transcription - Fiss, Xander; Kwasinski, Andres ) GENERAL - instrument construction and knowledge about tuning and pitch ranges can be used to constrain the transcription process - "The development of a musicianâ??s intuition for the cause-effect relationship inherent in producing sound is essential to mastering the instrument." APPROACH - real-time guitar transcription - fs = 8000Hz (highest guitar f0: 1174Hz, D6 at fret 22) - compromise between demands to performance and to resolving the first harmonics of the highest notes without any alias - authors apply a polyphonic pitch detection algorithm, results are scored based on knowledge about the guitar - maximum polyphony = 6 - maximum stretch span of gripping hand (maximum number of unique frets in a chord = 4) - STFT, partially overlapping Hann window, - fs = 8000, N = 2048, DeltaF = 3.91 Hz, t_window = .256 Hz ( for real time applications: maximum allowed latency needs to be considered) - quadratic curve fitting is applied to extrapolate values between frequency bin positions - use "PeakDet" peak detection algorithm - criteria to evaluate peaks as definite fundamentals: - must be a power-of-two multiple of a possible f_0, - must have supporting harmonics - can note be explained as a harmonic of a previously established definite fundamental - different combinations of f_0 candidates and assigned string numbers -> "guitar states" - guitar states are evaluated based on three metrics - "Support" -> number of supporting harmonics - "Power" -> amplitude sum of harmonic 0 \& 1 - is set into relationship with mean power of all definitive fundamentals - "Spread" -> fingering confidence, "biomechnic feasibility" RESULTS: - tested with different common chord shapes - results not well documented (average correct result score: ,873) },
+  annote =        { From Duplicate 1 ( Automatic Real-Time Electric Guitar Audio Transcription - Fiss, Xander; Kwasinski, Andres ) GENERAL - instrument construction and knowledge about tuning and pitch ranges can be used to constrain the transcription process - "The development of a musicianï¿½??s intuition for the cause-effect relationship inherent in producing sound is essential to mastering the instrument." APPROACH - real-time guitar transcription - fs = 8000Hz (highest guitar f0: 1174Hz, D6 at fret 22) - compromise between demands to performance and to resolving the first harmonics of the highest notes without any alias - authors apply a polyphonic pitch detection algorithm, results are scored based on knowledge about the guitar - maximum polyphony = 6 - maximum stretch span of gripping hand (maximum number of unique frets in a chord = 4) - STFT, partially overlapping Hann window, - fs = 8000, N = 2048, DeltaF = 3.91 Hz, t_window = .256 Hz ( for real time applications: maximum allowed latency needs to be considered) - quadratic curve fitting is applied to extrapolate values between frequency bin positions - use "PeakDet" peak detection algorithm - criteria to evaluate peaks as definite fundamentals: - must be a power-of-two multiple of a possible f_0, - must have supporting harmonics - can note be explained as a harmonic of a previously established definite fundamental - different combinations of f_0 candidates and assigned string numbers -> "guitar states" - guitar states are evaluated based on three metrics - "Support" -> number of supporting harmonics - "Power" -> amplitude sum of harmonic 0 \& 1 - is set into relationship with mean power of all definitive fundamentals - "Spread" -> fingering confidence, "biomechnic feasibility" RESULTS: - tested with different common chord shapes - results not well documented (average correct result score: ,873) From Duplicate 2 ( Automatic Real-Time Electric Guitar Audio Transcription - Fiss, Xander; Kwasinski, Andres ) From Duplicate 2 ( Automatic Real-Time Electric Guitar Audio Transcription - Fiss, Xander; Kwasinski, Andres ) GENERAL - instrument construction and knowledge about tuning and pitch ranges can be used to constrain the transcription process - "The development of a musicianï¿½??s intuition for the cause-effect relationship inherent in producing sound is essential to mastering the instrument." APPROACH - real-time guitar transcription - fs = 8000Hz (highest guitar f0: 1174Hz, D6 at fret 22) - compromise between demands to performance and to resolving the first harmonics of the highest notes without any alias - authors apply a polyphonic pitch detection algorithm, results are scored based on knowledge about the guitar - maximum polyphony = 6 - maximum stretch span of gripping hand (maximum number of unique frets in a chord = 4) - STFT, partially overlapping Hann window, - fs = 8000, N = 2048, DeltaF = 3.91 Hz, t_window = .256 Hz ( for real time applications: maximum allowed latency needs to be considered) - quadratic curve fitting is applied to extrapolate values between frequency bin positions - use "PeakDet" peak detection algorithm - criteria to evaluate peaks as definite fundamentals: - must be a power-of-two multiple of a possible f_0, - must have supporting harmonics - can note be explained as a harmonic of a previously established definite fundamental - different combinations of f_0 candidates and assigned string numbers -> "guitar states" - guitar states are evaluated based on three metrics - "Support" -> number of supporting harmonics - "Power" -> amplitude sum of harmonic 0 \& 1 - is set into relationship with mean power of all definitive fundamentals - "Spread" -> fingering confidence, "biomechnic feasibility" RESULTS: - tested with different common chord shapes - results not well documented (average correct result score: ,873) },
   file =          {:Volumes/untitled/Work/_Literatur/LITERATURE_FINAL/Fiss, Kwasinski_2011_Proc. of the IEEE Conference on Acoustics, Speech, and Signal Processing (ICASSP)_Automatic Real-Time Electri.pdf:pdf},
   isbn =          {9781457705397},
   keywords =      {music transcription,spatial transcription of string instruments},
@@ -916,6 +973,16 @@
   timestamp = {2016.11.10}
 }
 
+@Article{Goto:2004:SC,
+  author =  {Goto, Masataka},
+  title =   {{A Real-Time Music-Scene-Description System - Predominant-F0 Estimation for Detecting Melody and Bass Lines in Real-World Audio Signals}},
+  journal = {Speech Communication},
+  year =    {2004},
+  volume =  {43},
+  number =  {4},
+  pages =   {311--329}
+}
+
 @InProceedings{Goto:1995:ICMC,
   author =    {Goto, M. and Muraoka, Y.},
   title =     {A Real-time Beat Tracking System for Audio Signals},
@@ -983,6 +1050,19 @@
   timestamp = {2016.07.25}
 }
 
+@InProceedings{Hainsworth:2001:ICMC,
+  author =        {Hainsworth, Stephen W. and Macleod, Malcolm D.},
+  title =         {{Automatic bass line transcription from polyphonic music}},
+  booktitle =     {Proceedings of the International Computer Music Conference (ICMC)},
+  year =          {2001},
+  pages =         {431--434},
+  address =       {La Habana, Cuba},
+  keywords =      {bass transcription,music transcription},
+  mendeley-tags = {bass transcription,music transcription},
+  owner =         {jakobabeer},
+  timestamp =     {2017.01.04}
+}
+
 @InProceedings{Heittola:2009:ISMIR,
   author =    {T. Heittola and A. Klapuri and T. Virtanen},
   title =     {Musical Instrument Recognition in Polyphonic Audio using Source-Filter Model for Sound Separation},
@@ -1023,6 +1103,15 @@
   pages =     {340-352},
   owner =     {jakobabeer},
   timestamp = {2016.11.10}
+}
+
+@Article{Hoyer:2004:JMLR,
+  author =  {Hoyer, Patrik O.},
+  title =   {Non-negative Matrix Factorization with Sparseness Constraints},
+  journal = {Journal of Machine Learning Research},
+  year =    {2004},
+  volume =  {5},
+  pages =   {1457--1469}
 }
 
 @InProceedings{Hsu:2010:ISMIR,
@@ -1176,6 +1265,16 @@
   timestamp = {2016.10.08}
 }
 
+@InProceedings{Kelz:2016:ISMIR,
+  author =    {Reiner Kelz and Matthias Dorfer and Filip Korzeniowski and Sebastian B{\"o}ck and Andreas Arzt and Gerhard Widmer},
+  title =     {On the Potential of Simple Framewise Approaches to Piano Transcription},
+  booktitle = {Proceedings of 17th International Society for Music Information Retrieval Conference (ISMIR)},
+  year =      {2016},
+  address =   {New York, USA},
+  owner =     {jakobabeer},
+  timestamp = {2016.12.27}
+}
+
 @InProceedings{Kernfeld:1988:BOOK,
   author =    {Kernfeld, Barry},
   title =     {Improvisation},
@@ -1233,6 +1332,16 @@
   address =   {Miami (Florida), USA},
   owner =     {jakobabeer},
   timestamp = {2016.10.08}
+}
+
+@InProceedings{Korzeniowski:2016:ISMIR,
+  author =    {Filip Korzeniowski and Gerhard Widmer},
+  title =     {Feature Learning for Chord Recognition: The Deep Chroma Extractor},
+  booktitle = {Proceedings of the 17th International Society for Music Information Retrieval (ISMIR)},
+  year =      {2016},
+  address =   {New York, USA},
+  owner =     {jakobabeer},
+  timestamp = {2017.01.14}
 }
 
 @InProceedings{Kroher:2014:ICMCSMCC,
@@ -1418,6 +1527,15 @@
   timestamp = {2016.10.08}
 }
 
+@book{Mueller15_FundamentalsMusicProcessig_SPRINGER,
+    author    = {Meinard M\"{u}ller},
+    title     = {Fundamentals of Music Processing},
+    type      = {Monograph},
+    year      = {2015},
+    isbn      = {978-3-319-21944-8},
+    publisher = {Springer Verlag}
+}
+
 @PhdThesis{Mauch:2010:PhDthesis,
   author =    {Mauch, Matthias},
   title =     {Automatic Chord Transcription from Audio Using Computational Models of Musical Context},
@@ -1437,6 +1555,16 @@
   address =   {Utrecht, Netherlands},
   owner =     {jakobabeer},
   timestamp = {2016.10.08}
+}
+
+@InProceedings{McFee:2015:SCIPY,
+  author =    {B. McFee and C. Raffel and D. Liang and D. P. W. Ellis and M. McVicar and E. Battenberg and O. Nieto},
+  title =     {librosa: Audio and Music Signal Analysis in Python},
+  booktitle = {Proceedings of the Scientific Computing with Python conference (Scipy)},
+  year =      {2015},
+  address =   {Austin, Texas},
+  doi =       {10.5281/zenodo.32193},
+  url =       {http://dx.doi.org/10.5281/zenodo.32193}
 }
 
 @Article{McVicar:2014:IEEE_TASLP,
@@ -1812,6 +1940,24 @@
   timestamp = {2016.07.25}
 }
 
+@Article{Ryynaenen:2008:CMJ,
+  author =        {Ryyn\"{a}nen, Matti P. and Klapuri, Anssi},
+  title =         {{Automatic transcription of melody, bass line, and chords in polyphonic music}},
+  journal =       {Computer Music Journal},
+  year =          {2008},
+  volume =        {32},
+  pages =         {72--86},
+  month =         apr,
+  annote =        { From Duplicate 3 ( Automatic Bass Line Transcription from Streaming Polyphonic Audio - Ryyn\"{a}nen, Matti; Klapuri, Anssi ) % ------------ \paragraph*{\cite{Ryynaenen:2008:CMJ}, \cite{Ryynaenen:2007:ICASSP}} % ------------ Rynn{\"a}nen and Klapuri presented a hybrid transcription framework for bass and melody transcription in polyphonic music in \cite{Ryynaenen:2008:CMJ, Ryynaenen:2007:ICASSP}. The note transcription is based on a combination of an acoustical modelling of single note events and a musicological model to use knowledge of the musical context such as the key to derive transition probabilities between certain note pitch values. Finally, Viterbi decoding is applied to retrieve the bass transcription, which here is the optimal sequence of bass notes and intermediate rests. In order to train the acoustic models, two acoustic features are computed; the \textit{pitch saliency} that expresses the likelihood of a given note pitch at a given time and an \textit{accent signal} that captures the amount of ``spectral novelty'' at a given time instant. Pitch saliency values are computed for MIDI pitch values between 26 (D1 - 36.7Hz) and 59 (B3 - 246.9Hz). A multiple-f0 estimation algorithm as introduced in \cite{Klapuri:2006:ISMIR} is applied to analyze time frames with a frame size of 92.9ms and a hop size of 23.2ms. This procedure first uses a spectral whitening to suppress timbral characteristics of the applied bass instrument such as its characteristic harmonic envelope. The saliency of potential f0 values is computed by summing up the spectral energy at the corresponding harmonic frequencies. To compute the accent signal, the spectrum is subdivided into frequency bands motivated by the perceptual critical bands. The power differences between adjacent frames are computed band-wise and positive slopes are then summed up over all bands to obtain the accent signal for each frame \cite{Klapuri:2006:TASLP}. To model the temporal progression of single notes, three-state left-to-right Hidden Markov Models (HMM) are trained. The three states relate to the commonly used note envelope parts attack, decay, and sustain. The authors propose to use three models, the target-notes model for the bass and the melody notes, the other-notes model for note events caused by other instruments such as the drums (?), and a noise-or-silence model to model the time frames between sounding notes. },
+  isbn =          {1424407273},
+  issn =          {1520-6149},
+  keywords =      {bass transcription,music transcription},
+  mendeley-tags = {bass transcription,music transcription},
+  owner =         {jakobabeer},
+  publisher =     {IEEE},
+  timestamp =     {2017.01.04}
+}
+
 @InProceedings{Salamon2015,
   author =    {Salamon, J. and Bello, J.P.},
   title =     {Unsupervised feature learning for urban sound classification},
@@ -1844,6 +1990,30 @@
   timestamp = {2016.07.25}
 }
 
+@InProceedings{Salamon:2009:SMC,
+  author =        {Salamon, Justin and G\'{o}mez, Emilia},
+  title =         {{A Chroma-Based Salience Function for Melody and Bass Line Estimation From Music Audio Signals}},
+  booktitle =     {Proceedings of the $6^{th}$ Sound and Music Computing Conference (SMC)},
+  year =          {2009},
+  pages =         {23--25},
+  address =       {Porto, Portugal},
+  annote =        {- saliency function for bass \& melody transcription based on chroma features (Harmonic Pitch Class Profiles - HPCP) -> use pitch classes rather than absolute frequencies (mid level representation) - ADV: chroma-based saliency function is robust against tuning, timbre, dynamics; consise representation - based on HPCP - three pre-processing steps, spectral whitening (robust to timbre), normalization (robust to dynamics), tuning frequeny estimation (deviation to equal-tempered scale) - for bass transcription: investigate frequency range between 32.7Hz and 261.6Hz, - frequency resolution of 120 bins / octave to capture vibrati \& glissandi, t_res = 186ms - saliency function as frame-wise highest peak - no post-processing steps - - (applications of chroma: chord recognition, key estimation, similarity) },
+  keywords =      {bass transcription,music transcription},
+  mendeley-tags = {bass transcription,music transcription},
+  owner =         {jakobabeer},
+  timestamp =     {2017.01.04}
+}
+
+@article{SalamonG12_MelodyExtraction_TASLP,
+    Author = {Justin Salamon and Emilia G\'{o}mez},
+    Title = {Melody Extraction from Polyphonic Music Signals using Pitch Contour Characteristics},
+    Journal = {IEEE Transactions on Audio, Speech, and Language Processing},
+    Number = {6},
+    Volume = {20},
+    Pages = {1759--1770},
+    Year = {2012}
+}
+
 @InProceedings{Salamon:2012:ISMIR,
   author =    {Salamon, J. and Peeters, G. and R{\"o}bel, A.},
   title =     {Statistical Characterisation of Melodic Pitch Contours and its Application for Melody Extraction},
@@ -1853,6 +2023,20 @@
   address =   {Porto, Portugal},
   owner =     {jakobabeer},
   timestamp = {2016.10.08}
+}
+
+@Article{Salamon:2013:IJMIR,
+  author =    {Justin Salamon and Serr{\`a}, Joan and Emilia G{\'o}mez},
+  title =     {Tonal Representations for Music Retrieval: From Version Identification to Query-by-Humming},
+  journal =   {International Journal of Multimedia Information Retrieval, special issue on Hybrid Music Information Retrieval},
+  year =      {2013},
+  volume =    {2},
+  pages =     {45-58},
+  abstract =  {In this study we compare the use of different music representations for retrieving alternative performances of the same musical piece, a task commonly referred to as version identification. Given the audio signal of a song, we compute descriptors representing its melody, bass line and harmonic progression using state-of-the-art algorithms. These descriptors are then employed to retrieve different versions of the same musical piece using a dynamic programming algorithm based on nonlinear time series analysis. First, we evaluate the accuracy obtained using individual descriptors, and then we examine whether performance can be improved by combining these music representations (i.e.~descriptor fusion). Our results show that whilst harmony is the most reliable music representation for version identification, the melody and bass line representations also carry useful information for this task. Furthermore, we show that by combining these tonal representations we can increase version detection accuracy. Finally, we demonstrate how the proposed version identification method can be adapted for the task of query-by-humming. We propose a melody-based retrieval approach, and demonstrate how melody representations extracted from recordings of a cappella singing can be successfully used to retrieve the original song from a collection of polyphonic audio. The current limitations of the proposed approach are discussed in the context of version identification and query-by-humming, and possible solutions and future research directions are proposed.},
+  keywords =  {Bass line, cover song detection, harmony, melody extraction, Music Retrieval, music similarity, query by humming, version identification},
+  owner =     {jakobabeer},
+  timestamp = {2017.01.18},
+  url =       {files/publications/salamon-mmir.pdf}
 }
 
 @InBook{Saunders:2004:ECML,
@@ -1938,6 +2122,18 @@
   owner =     {jakobabeer},
   timestamp = {2016.06.16},
   url =       {http://icmpc-escom2012.web.auth.gr/sites/default/files/papers/909_Proc.pdf}
+}
+
+@Article{Sigtia:2016:IEEE_TASLP,
+  author =    {Siddharth Sigtia and Emmanouil Benetos and Simon Dixon},
+  title =     {An End-to-End Neural Network for Polyphonic Piano Music Transcription},
+  journal =   {{IEEE/ACM} Trans. Audio, Speech {\&} Language Processing},
+  year =      {2016},
+  volume =    {24},
+  number =    {5},
+  pages =     {927--939},
+  bibsource = {dblp computer science bibliography, http://dblp.org},
+  biburl =    {http://dblp.uni-trier.de/rec/bib/journals/taslp/SigtiaBD16}
 }
 
 @Article{Smith:1991:WOM,
@@ -2072,6 +2268,52 @@
   month =   {Jan}
 }
 
+@InProceedings{Tsunoo:2009:ISMIR,
+  author =        {Tsunoo, Emiru and Ono, Nobutaka and Sagayama, Shigeki},
+  title =         {{Musical Bass-Line Pattern Clustering and its Application to Audio Genre Classification}},
+  booktitle =     {Proceedings of the $10^{th}$ International Society for Music Information Retrieval Conference (ISMIR)},
+  year =          {2009},
+  pages =         {219--224},
+  address =       {Kobe, Japan},
+  keywords =      {bass transcription,music transcription},
+  mendeley-tags = {bass transcription,music transcription},
+  owner =         {jakobabeer},
+  timestamp =     {2017.01.04}
+}
+
+@Article{Tsunoo:2011:IEEE_TASLP,
+  author =    {Tsunoo, Emiru and Tzanetakis, George and Ono, Nobutaka and Sagayama, Shigeki},
+  title =     {{Beyond Timbral Statistics: Improving Music Classification Using Percussive Patterns and Bass Lines}},
+  journal =   {IEEE Transactions on Audio, Speech, and Language Processing},
+  year =      {2011},
+  volume =    {19},
+  number =    {4},
+  pages =     {1003--1014},
+  owner =     {jakobabeer},
+  timestamp = {2017.01.04}
+}
+
+@InProceedings{Uchida:2011:IEEE_ICSPCC,
+  author =    {Uchida, Yasunori and Wada, Shigeo},
+  title =     {{Melody and bass line estimation method using audio feature database}},
+  booktitle = {Proceedings of the IEEE International Conference on Signal Processing, Communications and Computing (ICSPCC)},
+  year =      {2011},
+  address =   {Shaanxi, China},
+  annote =    {The melody instrument is considered to be prominent in the middle and high frequency ranges, the bass instrument in the low frequency ranges, respectively. The algorithm consists of three steps: First, the instrument is identified by computing MFCC as features and computing an LDA-based distance to known feature vectors in a given tone database. This database comprises the instruments piano, guitar, violin, cello, trumpet, and trombone. In order to estimate the melody pitches, the seven highest peaks in the spectrum are computed as features and the melody transcription is performed by retrieving the most similar feature vectors in a pitch database (according to the previously estimated instrument). The authors apply spectral subtraction in order to remove the spectral energy of the melody instrument. Finally, the bass line is transcribed by again applying the same instrument recognition and pitch detection steps as before to the residual spectrum. The evaluation was only performed with re-synthesized version of two different MIDI pieces were re-synthesized Then, In order to identify the instrument, low-order MFCC with a non-unified weighting function are computed to describe the spectral envelope. The MFCC are averaged over multiple adjacent time frames. },
+  keywords =  {-component,audio signal,feature extraction,frequency analysis},
+  owner =     {jakobabeer},
+  timestamp = {2017.01.04}
+}
+
+@InProceedings{Uhlich:2015:ICASSP,
+  author =    {S. Uhlich and F. Giron and Y. Mitsufuji},
+  title =     {Deep neural network based instrument extraction from music},
+  booktitle = {Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  year =      {2015},
+  pages =     {2135-2139},
+  address =   {Brisbane, Australia}
+}
+
 @InProceedings{Herwaarden:2014:ISMIR,
   author =    {Van Herwaarden, S. and Grachten, M. and De Haas, W. B.},
   title =     {Predicting expressive dynamics in piano performances using neural networks},
@@ -2081,6 +2323,15 @@
   month =     {October},
   owner =     {jakobabeer},
   timestamp = {2016.11.10}
+}
+
+@Article{Vincent:2010:JMLR,
+  author =  {Vincent, Pascal and Larochelle, Hugo and Lajoie, Isabelle and Bengio, Yoshua and Manzagol, Pierre-Antoine},
+  title =   {Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion},
+  journal = {Journal of Machine Learning Research},
+  year =    {2010},
+  volume =  {11},
+  pages =   {3371--3408}
 }
 
 @InProceedings{Weiss:2015:ICASSP,
@@ -2165,6 +2416,14 @@
   isbn =      {9781479903566},
   owner =     {jakobabeer},
   timestamp = {2016.07.03}
+}
+
+@Article{Zeiler:2012:CoRR,
+  author =  {Matthew D. Zeiler},
+  title =   {{ADADELTA:} An Adaptive Learning Rate Method},
+  journal = {CoRR},
+  year =    {2012},
+  volume =  {abs/1212.5701}
 }
 
 @Book{Schneider:2011:BOOK,
