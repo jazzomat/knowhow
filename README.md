@@ -22,7 +22,7 @@ This page is intended to be a general collection of useful references, links, an
 
 ## References
 
-* See the BibTeX file [references.bib](references.bib) for an extensive overview of related rerferences (articles, papers, books, etc.)
+* See the BibTeX file [references.bib](jazz_references.bib) for an extensive overview of related rerferences (articles, papers, books, etc.)
 * [Zotero - jazz research group](https://www.zotero.org/groups/jazz-research)
 * [Bob Keller's Jazz Page](https://www.cs.hmc.edu/~keller/jazz/)
 
